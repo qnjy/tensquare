@@ -30,6 +30,11 @@
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
         </dependency>
 
+        <!--添加SpringdataRedis-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
 
         <!-- mybatis-plus begin -->
         <!-- https://mvnrepository.com/artifact/com.baomidou/mybatisplus-spring-boot-starter -->

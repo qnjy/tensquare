@@ -1,11 +1,12 @@
 package com.tensquare.article.pojo;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import java.io.Serializable;
 import java.util.Date;
 
 public class Comment implements Serializable {
-
     @Id
     private String _id;
     private String articleid;

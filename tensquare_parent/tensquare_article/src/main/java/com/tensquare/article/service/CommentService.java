@@ -1,9 +1,14 @@
 package com.tensquare.article.service;
 
+import com.mongodb.client.result.UpdateResult;
 import com.tensquare.article.pojo.Comment;
 import com.tensquare.article.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.core.query.Update;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import util.IdWorker;
 
@@ -55,12 +60,40 @@ public class CommentService {
         return list;
     }
 
+    //点赞+1
     public void thumbup(String commentId) {
-        //根据评论id查询评论数据
-        Comment comment = commentRepository.findById(commentId).get();
-        //对评论点赞数据加一
-        comment.setThumbup(comment.getThumbup() + 1);
-        //保存修改数据
-        commentRepository.save(comment);
+        // //根据评论id查询评论数据
+        // Comment comment = commentRepository.findById(commentId).get();
+        // //对评论点赞数据加一
+        // comment.setThumbup(comment.getThumbup() + 1);
+        // //保存修改数据
+        // commentRepository.save(comment);
+
+        //点赞功能优化
+
+        //封装修改条件
+        Query query = new Query();
+        query.addCriteria(Criteria.where("_id").is(commentId));
+
+        //列值增长
+        Update update = new Update();
+        update.inc("thumbup",1);
+
+        //直接修改数据
+        //第一个参数是修改条件
+        //第二个是修改的数值
+        //第三个是要修改MongoDB的集合名字
+        UpdateResult comment = mongoTemplate.updateFirst(query, update, "comment");
+    }
+
+    //点赞-1
+    public void thumbupLess(String commentId) {
+        Query query = new Query();
+        query.addCriteria(Criteria.where("_id").is(commentId));
+
+        Update update = new Update();
+        update.inc("thumbup",-1);
+
+        UpdateResult comment = mongoTemplate.updateFirst(query, update, "comment");
     }
 }
