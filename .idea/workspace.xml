@@ -172,8 +172,136 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/SSM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/controller/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/controller/Pic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/interceptor/LoginIntercepter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/mapper/LoginMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/po/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/po/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/web/AuthImg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/websocket/HandShake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/websocket/MyWebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/java/websocket/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/resources/conf/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/resources/conf/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/resources/conf/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/resources/conf/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/resources/mapper/LoginMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/webapp/WEB-INF/content/chatroom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/webapp/WEB-INF/content/fail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/webapp/WEB-INF/content/failcode.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/webapp/WEB-INF/content/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/webapp/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/webapp/css/jquery.bootgrid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/webapp/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/webapp/js/jquery-1.12.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/webapp/js/jquery.bootgrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/src/main/webapp/uploadfiles/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/conf/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/conf/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/conf/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/conf/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/controller/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/controller/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/controller/Pic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/interceptor/LoginIntercepter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/mapper/LoginMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/mapper/LoginMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/po/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/po/Staff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/po/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/web/AuthImg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/websocket/HandShake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/websocket/MyWebSocketHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/websocket/MyWebSocketHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/classes/websocket/WebSocketConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/content/chatroom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/content/fail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/content/failcode.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/content/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/aspectjweaver-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/c3p0-0.9.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/c3p0-0.9.5-pre2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/commons-lang3-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/fastjson-1.1.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/gson-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/jackson-annotations-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/jackson-core-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/jackson-databind-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/javassist-3.11.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/mchange-commons-java-0.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/mybatis-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/ognl-3.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/pagehelper-4.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/poi-3.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/quartz-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/quartz-jobs-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-aop-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-beans-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-context-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-context-support-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-core-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-expression-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-jdbc-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-messaging-4.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-orm-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-tx-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-web-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-webmvc-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-websocket-4.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/css/jquery.bootgrid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/js/jquery-1.12.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/js/jquery.bootgrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/Spring-websocket/uploadfiles/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/conf/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/conf/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/conf/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/conf/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/controller/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/controller/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/controller/Pic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/interceptor/LoginIntercepter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/mapper/LoginMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/mapper/LoginMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/po/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/po/Staff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/po/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/web/AuthImg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/websocket/HandShake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/websocket/MyWebSocketHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/websocket/MyWebSocketHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/Spring-websocket/target/classes/websocket/WebSocketConfig.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_article/src/main/java/com/tensquare/article/client/NoticeClient.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_article/src/main/java/com/tensquare/article/pojo/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_article/target/classes/com/tensquare/article/client/NoticeClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_article/target/classes/com/tensquare/article/pojo/Notice.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/src/main/java/com/tensquare/encrypt/EncryptApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/src/main/java/com/tensquare/encrypt/filters/RSARequestFilter.java" afterDir="false" />
@@ -185,10 +313,25 @@
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/src/main/java/com/tensquare/encrypt/service/RsaServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/src/test/java/EncryptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/classes/META-INF/tensquare_encrypt.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/classes/com/tensquare/encrypt/EncryptApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/classes/com/tensquare/encrypt/filters/RSARequestFilter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/classes/com/tensquare/encrypt/filters/RSARequestFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/classes/com/tensquare/encrypt/rsa/Base64Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/classes/com/tensquare/encrypt/rsa/RSA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/classes/com/tensquare/encrypt/rsa/RsaKeys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/classes/com/tensquare/encrypt/rsa/mBase64.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/classes/com/tensquare/encrypt/service/RsaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/classes/com/tensquare/encrypt/service/RsaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/test-classes/EncryptTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/target/test-classes/META-INF/tensquare_encrypt.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_encrypt/tensquare_encrypt.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_eureka/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_eureka/src/main/java/com/tensquare/eureka/EurekaApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_eureka/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_eureka/target/classes/com/tensquare/eureka/EurekaApplication.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_eureka/tensquare_eureka.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/src/main/java/com/tensquare/notice/NoticeApplication.java" afterDir="false" />
@@ -202,6 +345,17 @@
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/src/main/java/com/tensquare/notice/pojo/NoticeFresh.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/src/main/java/com/tensquare/notice/service/NoticeService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/target/classes/com/tensquare/notice/NoticeApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/target/classes/com/tensquare/notice/client/ArticleClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/target/classes/com/tensquare/notice/client/UserClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/target/classes/com/tensquare/notice/config/MyBatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/target/classes/com/tensquare/notice/controller/NoticeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/target/classes/com/tensquare/notice/dao/NoticeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/target/classes/com/tensquare/notice/dao/NoticeFreshDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/target/classes/com/tensquare/notice/pojo/Notice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/target/classes/com/tensquare/notice/pojo/NoticeFresh.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/target/classes/com/tensquare/notice/service/NoticeService.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_notice/tensquare_notice.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/src/main/java/com/tensquare/user/UserApplication.java" afterDir="false" />
@@ -217,6 +371,19 @@
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/src/main/resources/static/sdk/EMedia_x1v1.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/src/main/resources/static/sdk/jquery-1.12.3.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/src/main/resources/static/sdk/webimSDK3.0.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/com/tensquare/user/UserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/com/tensquare/user/config/MyBatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/com/tensquare/user/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/com/tensquare/user/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/com/tensquare/user/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/com/tensquare/user/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/static/WebIMConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/static/chatroom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/static/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/static/sdk/EMedia_x1v1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/static/sdk/jquery-1.12.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/target/classes/static/sdk/webimSDK3.0.4.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tensquare_parent/tensquare_user/tensquare_user.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
@@ -306,8 +473,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensquare_parent/tensquare_notice/src/main/java/com/tensquare/notice/service/NoticeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+            <state relative-caret-position="44">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -433,8 +600,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="678" />
-    <option name="y" value="55" />
+    <option name="x" value="443" />
+    <option name="y" value="31" />
     <option name="width" value="1163" />
     <option name="height" value="991" />
   </component>
@@ -921,7 +1088,7 @@
       <workItem from="1623669490037" duration="325000" />
       <workItem from="1623669839321" duration="18094000" />
       <workItem from="1623810093409" duration="15257000" />
-      <workItem from="1623842213399" duration="3995000" />
+      <workItem from="1623842213399" duration="4596000" />
     </task>
     <servers />
   </component>
@@ -958,7 +1125,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185830000" />
+    <option name="totallyTimeSpent" value="186431000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -970,7 +1137,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="678" y="55" width="1163" height="991" extended-state="0" />
+    <frame x="637" y="46" width="1163" height="991" extended-state="0" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
@@ -1497,8 +1664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_parent/tensquare_notice/src/main/java/com/tensquare/notice/service/NoticeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+        <state relative-caret-position="44">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
