@@ -2,9 +2,15 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/tensquare_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare_parent/Spring-websocket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tensquare_parent/mongo_demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tensquare_parent/tensquare_article" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tensquare_parent/tensquare_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare_parent/tensquare_encrypt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare_parent/tensquare_encrypt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare_parent/tensquare_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare_parent/tensquare_notice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare_parent/tensquare_user" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

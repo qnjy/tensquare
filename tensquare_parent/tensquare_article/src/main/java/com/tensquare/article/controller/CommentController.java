@@ -9,6 +9,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 @RequestMapping("comment")
@@ -34,11 +35,12 @@ public class CommentController {
 
         //如果不为空，就是说已经点过赞，取消点赞
         if (flag != null) {
+            //点赞-1
             commentService.thumbupLess(commentId);
-            redisTemplate.opsForValue().set("thumbup_" + userid + "_" + commentId,null);
+            redisTemplate.opsForValue().set("thumbup_" + userid + "_" + commentId,null, 5,TimeUnit.SECONDS);
             return new Result(true, StatusCode.OK, "取消点赞");
         } else {
-            //如果为空，可以点赞
+            //如果为空，点赞+1
             commentService.thumbup(commentId);
             //保存点赞记录
             redisTemplate.opsForValue().set("thumbup_" + userid + "_" + commentId, 1);
@@ -47,7 +49,7 @@ public class CommentController {
         }
     }
 
-    //GET /comment/{article}/{articleId} 根据文章id查询评论
+    //GET /comment/article/{articleId} 根据文章id查询评论
     @GetMapping(value = "article/{articleId}")
     public Result findByArticleId(@PathVariable String articleId) {
         List<Comment> list = commentService.findByArticleId(articleId);

@@ -6,6 +6,9 @@ public class Result {
     private String message;//返回信息
     private Object data;//返回数据
 
+    public Result() {
+    }
+
     public Result(Boolean flag, Integer code, String message) {
         this.flag = flag;
         this.code = code;
